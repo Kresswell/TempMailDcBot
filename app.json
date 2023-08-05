@@ -1,7 +1,7 @@
 {
     "name": "Mail Gen Dc BOT",
     "description": " API base pyrogram fake mail gen bot source code here !",
-    "repository": "https://github.com/selfie-bd",
+    "repository": "https://github.com/Kresswell/TempMailDcBot",
     "logo":"https://telegra.ph/file/281c94a2c4a76f5107ae2.jpg",
     "keywords": [
         "Bot",
