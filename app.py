@@ -46,7 +46,7 @@ I can create **temp emails** for you. Send /new to **create new mail** !
 
 Send /domains to get list of Available Domains.
 
-**Developer** : @selfiebd | @Groupdcbots 
+**Developer** : @EscaliBud | @InfinityHack3rsKE 
 """
 
 CHANNEL_ID = int(os.environ['CHANNEL_ID'])
@@ -56,11 +56,11 @@ OWNER = int(os.environ['OWNER'])
 start_button = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("👥 Group", url="https://t.me/Groupdcs"),
-                    InlineKeyboardButton("🗣 Channel", url="https://t.me/Groupdcbots")
+                    InlineKeyboardButton("👥 Group", url="https://t.me/InfinityHack3rs"),
+                    InlineKeyboardButton("🗣 Channel", url="https://t.me/InfinityHack3rsKE")
                 ],
 		        [
-                    InlineKeyboardButton("➕ Add to Your Group ➕", url=f"http://t.me/TempMailDcBot?startgroup=new"),
+                    InlineKeyboardButton("➕ Add to Your Group ➕", url=f"http://t.me/Ihtempmail1Bot?startgroup=new"),
                 ]    
             ]
 )
@@ -117,7 +117,7 @@ async def fakemailgen(_, message: Message):
 **📬 Done,Your Email Address Created!**
 📧 **Email** : `{email}@{domain}`
 📨 **Mail BOX** : `empty`
-♨️ **Powered by** : @groupdcbots """,
+♨️ **Powered by** : @InfinityHack3rsKE""",
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("♻️ Update Mail BOX ♻️", callback_data = f"mailbox |{email}|{domain}")]]))
     pi = await mes.pin(disable_notification=True, both_sides=True)
     await m.delete()
@@ -157,7 +157,7 @@ async def mail_box(_, query : CallbackQuery):
 **📬 Done,Your Email Address Created!**
 📧 **Email** : `{smail}`
 📨 **Mail BOX** : ✅
-**♨️ Powered by** : @Groupdcbots""",
+**♨️ Powered by** : @InfinityHack3rsKE""",
 reply_markup = mbutton
 )   
         except bad_request_400.MessageNotModified as e:
@@ -307,7 +307,7 @@ Want to promote your online business ? Want to get people engagement? We are her
 
 Promote whatever you want at lowest and affordable prices.
 
-https://t.me/Groupdcs 
+https://t.me/InfinityHack3rsKE 
 
 🔥Your broadcast will reach group also so minimum 50k users see your message.
 """)
